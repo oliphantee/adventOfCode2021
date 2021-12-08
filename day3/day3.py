@@ -60,3 +60,5 @@ for c in range(12):
         break
 
 print(co2,o2,co2*o2)
+
+f.close()

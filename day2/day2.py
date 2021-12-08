@@ -13,3 +13,5 @@ for line in f.readlines():
         aim-=int(line[1])
 
 print(curX,curY,curX*curY)
+
+f.close()

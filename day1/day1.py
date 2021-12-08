@@ -8,3 +8,5 @@ for i,line in enumerate(f.readlines()):
         curCount+=1
     prevVal[i%3]=int(line)
 print(curCount)
+
+f.close()
